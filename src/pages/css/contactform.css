@@ -1,0 +1,142 @@
+.contact-form-labels {
+    color: white;
+}
+
+.contact-form-inputs {
+    background: linear-gradient(200deg, rgb(4, 4, 214), black, rgb(4, 4, 214));
+    padding: 5px;
+    width: 60%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form-textarea {
+    background: linear-gradient(200deg, rgb(4, 4, 214), black, rgb(4, 4, 214));
+    padding: 5px;
+    width: 60%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.card-container4 {
+    margin: 100px;
+    height: 540px;
+    width: 600px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    background: black;
+}
+
+.underline4 {
+    height: 04px;
+    width: 8rem;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.card-container4:hover {
+    height: 540px;
+    width: 600px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    background: black;
+}
+
+.image-container4 img{
+    overflow: hidden;
+    height: 200px;
+    width: 600px;
+}
+
+.image-container4:hover img{
+    overflow: hidden;
+    height: 200px;
+    width: 600px;
+}
+
+.card-content {
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+h3,p {
+    margin:0;
+    padding: 0;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+}
+
+.card-btn {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.glow-on-hover {
+    width: 90%;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

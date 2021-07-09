@@ -1,0 +1,156 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  
+  .App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+  }
+  
+  .App-title {
+    font-size: 1.5em;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  ul {
+    padding:0;
+    list-style:none;
+    width: 30%;
+    margin:auto;
+  }
+  
+  li{
+    font-size:1.2rem;
+    line-height: 2rem;
+    border-bottom: 1px dotted #777;
+  }
+  
+  .card-container4 {
+    margin: 100px;
+    height: 510px;
+    width: 600px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    background: black;
+  }
+  
+  .underline4 {
+    height: 04px;
+    width: 8rem;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card-container4:hover {
+    height: 510px;
+    width: 600px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    background: black;
+  }
+  
+  .image-container4 img{
+    overflow: hidden;
+    height: 200px;
+    width: 600px;
+  }
+  
+  .image-container4:hover img{
+    overflow: hidden;
+    height: 200px;
+    width: 600px;
+  }
+  
+  .card-content {
+    margin: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  h3,p {
+    margin:0;
+    padding: 0;
+  }
+  
+  .card-title {
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-btn {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .card-containerig {
+    margin-bottom: 100px;
+    margin-top: -02px;
+    height: 637px;
+    width: 600px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    background: black;
+  }
+  
+  .underlineig {
+    height: 04px;
+    width: 8rem;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card-containerig:hover {
+    height: 637px;
+    width: 600px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    background: black;
+  }
+  
+  .image-containerig img{
+    overflow: hidden;
+    height: 200px;
+    width: 600px;
+  }
+  
+  .image-containerig:hover img{
+    overflow: hidden;
+    height: 200px;
+    width: 600px;
+  }
+  
+  .card-content {
+    margin: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  h3,p {
+    margin:0;
+    padding: 0;
+  }
+  
+  .card-title {
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-btn {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
