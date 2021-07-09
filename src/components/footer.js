@@ -5,7 +5,7 @@ import './footer.css';
 function Footer () {
   return (
     <section className="footer">
-      &copy; {process.env.REACT_APP_FOOTER_TEXT}
+      &copy; Fly Alts 2021
     </section>
   )
 }
